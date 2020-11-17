@@ -204,7 +204,7 @@ You must first configure the storage location of the repository files. By defaul
         'basePath'=>app()->path(),
         'rootNamespace'=>'App\\',
         'paths'=>[
-            'models'       => 'Entities',
+            'models'       => 'Models',
             'repositories' => 'Repositories',
             'interfaces'   => 'Repositories',
             'transformers' => 'Transformers',
