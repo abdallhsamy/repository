@@ -1,5 +1,5 @@
 {
-  "name": "prettus/l5-repository",
+  "name": "abdallhsamy/repository",
   "description": "Laravel 5|6|7|8 - Repositories to  the database layer",
   "keywords": [
     "laravel",
@@ -14,6 +14,12 @@
       "name": "Anderson Andrade",
       "homepage": "http://andersonandra.de",
       "email": "contato@andersonandra.de",
+      "role": "Developer"
+    },
+    {
+      "name": "Abdallah Samy",
+      "homepage": "http://abdallahsamy.com",
+      "email": "abdallhsamy2011@gmail.com",
       "role": "Developer"
     }
   ],
@@ -38,7 +44,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Prettus\\Repository\\": "src/Prettus/Repository/"
+      "AbdallhSamy\\Repository\\": "src/AbdallhSamy/Repository/"
     }
   },
   "config": {
@@ -52,7 +58,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Prettus\\Repository\\Providers\\RepositoryServiceProvider"
+        "AbdallhSamy\\Repository\\Providers\\RepositoryServiceProvider"
       ]
     }
   },

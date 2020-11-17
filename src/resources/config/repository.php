@@ -1,7 +1,7 @@
 <?php
 /*
 |--------------------------------------------------------------------------
-| Prettus Repository Config
+| AbdallhSamy Repository Config
 |--------------------------------------------------------------------------
 |
 |
@@ -231,7 +231,7 @@ return [
         'rootNamespace' => 'App\\',
         'stubsOverridePath' => app()->path(),
         'paths'         => [
-            'models'       => 'Entities',
+            'models'       => 'Models',
             'repositories' => 'Repositories',
             'interfaces'   => 'Repositories',
             'transformers' => 'Transformers',
