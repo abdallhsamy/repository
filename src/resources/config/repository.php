@@ -116,7 +116,7 @@ return [
             |--------------------------------------------------------------------------
             |
             |
-            | Ex: http://prettus.local/?search=lorem&skipCache=true
+            | Ex: http://abdallahsamy.com/?search=lorem&skipCache=true
             |
             */
             'skipCache' => 'skipCache'
@@ -181,32 +181,32 @@ return [
         | Params :
         |
         | - search : Searched value
-        |   Ex: http://prettus.local/?search=lorem
+        |   Ex: http://abdallahsamy.com/?search=lorem
         |
         | - searchFields : Fields in which research should be carried out
         |   Ex:
-        |    http://prettus.local/?search=lorem&searchFields=name;email
-        |    http://prettus.local/?search=lorem&searchFields=name:like;email
-        |    http://prettus.local/?search=lorem&searchFields=name:like
+        |    http://abdallahsamy.com/?search=lorem&searchFields=name;email
+        |    http://abdallahsamy.com/?search=lorem&searchFields=name:like;email
+        |    http://abdallahsamy.com/?search=lorem&searchFields=name:like
         |
         | - filter : Fields that must be returned to the response object
         |   Ex:
-        |   http://prettus.local/?search=lorem&filter=id,name
+        |   http://abdallahsamy.com/?search=lorem&filter=id,name
         |
         | - orderBy : Order By
         |   Ex:
-        |   http://prettus.local/?search=lorem&orderBy=id
+        |   http://abdallahsamy.com/?search=lorem&orderBy=id
         |
         | - sortedBy : Sort
         |   Ex:
-        |   http://prettus.local/?search=lorem&orderBy=id&sortedBy=asc
-        |   http://prettus.local/?search=lorem&orderBy=id&sortedBy=desc
+        |   http://abdallahsamy.com/?search=lorem&orderBy=id&sortedBy=asc
+        |   http://abdallahsamy.com/?search=lorem&orderBy=id&sortedBy=desc
         |
         | - searchJoin: Specifies the search method (AND / OR), by default the
         |               application searches each parameter with OR
         |   EX:
-        |   http://prettus.local/?search=lorem&searchJoin=and
-        |   http://prettus.local/?search=lorem&searchJoin=or
+        |   http://abdallahsamy.com/?search=lorem&searchJoin=and
+        |   http://abdallahsamy.com/?search=lorem&searchJoin=or
         |
         */
         'params'             => [
