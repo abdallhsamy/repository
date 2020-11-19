@@ -616,7 +616,7 @@ protected $fieldSearchable = [
 
 Request all data without filter by request
 
-`http://prettus.local/users`
+`http://abdallahsamy.com/users`
 
 ```json
 [
@@ -646,23 +646,23 @@ Request all data without filter by request
 
 Conducting research in the repository
 
-`http://prettus.local/users?search=John%20Doe`
+`http://abdallahsamy.com/users?search=John%20Doe`
 
 or
 
-`http://prettus.local/users?search=John&searchFields=name:like`
+`http://abdallahsamy.com/users?search=John&searchFields=name:like`
 
 or
 
-`http://prettus.local/users?search=john@gmail.com&searchFields=email:=`
+`http://abdallahsamy.com/users?search=john@gmail.com&searchFields=email:=`
 
 or
 
-`http://prettus.local/users?search=name:John Doe;email:john@gmail.com`
+`http://abdallahsamy.com/users?search=name:John Doe;email:john@gmail.com`
 
 or
 
-`http://prettus.local/users?search=name:John;email:john@gmail.com&searchFields=name:like;email:=`
+`http://abdallahsamy.com/users?search=name:John;email:john@gmail.com&searchFields=name:like;email:=`
 
 ```json
 [
@@ -677,7 +677,7 @@ or
 ```
 
 By default RequestCriteria makes its queries using the **OR** comparison operator for each query parameter.
-`http://prettus.local/users?search=age:17;email:john@gmail.com`
+`http://abdallahsamy.com/users?search=age:17;email:john@gmail.com`
 
 The above example will execute the following query:
 ``` sql
@@ -686,7 +686,7 @@ SELECT * FROM users WHERE age = 17 OR email = 'john@gmail.com';
 
 In order for it to query using the **AND**, pass the *searchJoin* parameter as shown below:
 
-`http://prettus.local/users?search=age:17;email:john@gmail.com&searchJoin=and`
+`http://abdallahsamy.com/users?search=age:17;email:john@gmail.com&searchJoin=and`
 
 
 
@@ -694,7 +694,7 @@ In order for it to query using the **AND**, pass the *searchJoin* parameter as s
 
 Filtering fields
 
-`http://prettus.local/users?filter=id;name`
+`http://abdallahsamy.com/users?filter=id;name`
 
 ```json
 [
@@ -715,7 +715,7 @@ Filtering fields
 
 Sorting the results
 
-`http://prettus.local/users?filter=id;name&orderBy=id&sortedBy=desc`
+`http://abdallahsamy.com/users?filter=id;name&orderBy=id&sortedBy=desc`
 
 ```json
 [
@@ -736,7 +736,7 @@ Sorting the results
 
 Sorting through related tables
 
-`http://prettus.local/users?orderBy=posts|title&sortedBy=desc`
+`http://abdallahsamy.com/users?orderBy=posts|title&sortedBy=desc`
 
 Query will have something like this
 
@@ -748,7 +748,7 @@ ORDER BY title
 ...
 ```
 
-`http://prettus.local/users?orderBy=posts:custom_id|posts.title&sortedBy=desc`
+`http://abdallahsamy.com/users?orderBy=posts:custom_id|posts.title&sortedBy=desc`
 
 Query will have something like this
 
@@ -762,7 +762,7 @@ ORDER BY posts.title
 
 Sorting multiple columns same sortedBy
 
-`http://prettus.local/users?orderBy=name;created_at&sortedBy=desc`
+`http://abdallahsamy.com/users?orderBy=name;created_at&sortedBy=desc`
 
 Result will have something like this
 
@@ -789,7 +789,7 @@ Result will have something like this
 
 Sorting multiple columns difference sortedBy
 
-`http://prettus.local/users?orderBy=name;created_at&sortedBy=desc;asc`
+`http://abdallahsamy.com/users?orderBy=name;created_at&sortedBy=desc;asc`
 
 Result will have something like this
 
@@ -815,7 +815,7 @@ Result will have something like this
 
 Add relationship
 
-`http://prettus.local/users?with=groups`
+`http://abdallahsamy.com/users?with=groups`
 
 
 
